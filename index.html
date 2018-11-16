@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="#about-me">About me</a>
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <section id="about-me">
+        <div class="container-fluid bg-dark">
+            <div class="container bg-white">
+                <div class="row">
+                    <div class="col-sm-3 border p-5">
+                        <img src="img/photo.jpg" alt="" class="img-fluid rounded-circle border border-dark">
+                    </div>
+                    <div class="col-sm-9 border">
+                        <h1>About me</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde cupiditate, molestiae tempora eos ducimus quas earum atque eligendi nostrum dolore?</p>   
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam dolores sapiente a commodi accusantium vero perferendis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section id="projects">
+        <div class="container-fluid bg-dark">
+            <div class="container bg-white">
+                <h1>Projects</h1>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>Landboat ipsum dolor sit amet consectetur adipisicing elit. Minima corrupti neque rem nesciunt, accusantium nihil!</p>
+                    </div>
+                    <div class="col-lg-8">
+                        <img src="img/landboat.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Wistia est ipsum dolor sit amet consectetur adipisicing elit. Minima corrupti neque rem nesciunt, accusantium nihil!</p>
+                    </div>
+                    <div class="col-lg-8">
+                        <img src="img/wistia.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Docplanner ipsum dolor sit amet consectetur adipisicing elit. Minima corrupti neque rem nesciunt, accusantium nihil!</p>
+                    </div>
+                    <div class="col-lg-8">
+                        <img src="img/docplanner.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="row bg-dark text-white p-3">
+                <div class="col-sm-6 ">
+                    <h1 class="h3">Address</h1>
+                    <p>Résidence Ennesrine Bureau G10 Bloc G Escalier 2<br/>61 Rue Union du Maghreb Arabe<br/>2036 - La Soukra  </p>
+                    <h1 class="h3">Social Media</h1>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+                <div class="col-sm-6">
+                        <div class="row justify-content-center">
+                                <form id="contact-form">
+                                    <div class="row">
+                                        <div class="form-group col-sm-6">
+                                            <label for="first-name">First Name</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-sm-6">
+                                                <label for="surname">Surname</label>
+                                                <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                            <div class="form-group col-sm-6">
+                                                <label for="phone">Phone</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="form-group col-sm-6">
+                                                    <label for="E-mail">E-mail</label>
+                                                    <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                    <div class="form-group">
+                                            <label for="name">Message</label>
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Write your message" rows="3" ></textarea>
+                                    </div>
+                                    <button class="btn btn-secondary btn-lg">Send Request</button>   
+                                </form>
+                    
+                        </div>
+
+                </div> 
+            </div> 
+        </div>
+    </section>
+    <footer id="main-footer" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="py-4">
+                        <div class="h3">
+                            <p>Copyright &copy; 2018</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        ></div>
+    </footer>
+</body>
+</html>
